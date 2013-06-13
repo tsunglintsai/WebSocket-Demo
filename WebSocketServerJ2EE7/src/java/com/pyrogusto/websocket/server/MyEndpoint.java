@@ -1,5 +1,5 @@
 
-package com.pyrogusto;
+package com.pyrogusto.websocket.server;
 
 
 import java.io.IOException;
@@ -8,6 +8,8 @@ import javax.websocket.OnMessage;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
 
+
+// ws://localhost:8080/WebSocketServerJ2EE7/websocket
 @ServerEndpoint(value="/websocket")
 public class MyEndpoint {
     
