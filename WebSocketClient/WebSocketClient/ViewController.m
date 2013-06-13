@@ -10,7 +10,7 @@
 #import "SRWebSocket.h"
 
 //#define webSocketServerURL @"ws://localhost:8080/WebsocketServer/websocket/echoStream"
-#define webSocketServerURL @"ws://localhost:8080/WebSocketJ2EE7/websocket"
+#define webSocketServerURL @"ws://localhost:8080/WebSocketServerJ2EE7/websocket/"
 
 @interface ViewController ()<SRWebSocketDelegate>
 @property (strong,nonatomic) SRWebSocket *webSocket;
